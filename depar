@@ -1,0 +1,6 @@
+#!/bin/bash
+blih -u $1 repository create $3
+blih -u $1 repository setacl ramassage-tek r
+blih -u $1 repository setacl $3 $2 rw
+blih -u $1 repository getacl $3
+git clone git@git.epitech.eu:/$1/$3

@@ -1,0 +1,5 @@
+find . -name "*~" -delete -o -name "#*#" -delete
+make fclean
+clear
+clear
+clear

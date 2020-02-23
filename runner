@@ -1,0 +1,5 @@
+#!/bin/bash
+cd
+cd my_scripts/my_runner_2017
+make re
+./my_runner

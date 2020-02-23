@@ -1,0 +1,4 @@
+#!/bin/bash
+grep putchar $1
+grep printf $1
+grep putnbr $1
